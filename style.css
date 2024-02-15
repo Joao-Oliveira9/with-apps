@@ -1,0 +1,99 @@
+@font-face {
+    font-family:'SoDoSans';
+    src: url(assets/font/SoDoSans-Bold.woff2);
+}
+
+:root{
+    --ff-nav:'SoDoSans';
+    --clr-nav:#203361;
+    --clr-navbackgroud:white;
+    --fs-main:1.3rem;
+    --clr-main:#203361;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration:none;
+}
+
+header{
+    background-color: var(--clr-navbackgroud);
+    font-family: var(--ff-nav);
+}
+
+ul{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+li a{
+     color: var(--clr-nav);
+}
+
+.left-navbar{
+    display: flex; 
+    gap:3rem;
+    align-items: center;
+}
+
+.right-navbar{
+    display: flex; 
+    align-items: center;
+    margin-right: 1rem;
+    gap:3rem;
+}
+
+.icon-image{
+    display: block;
+}
+
+.title{
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    
+}
+
+
+main{
+    background-color: var(--clr-nav);
+    color: var(--clr-navbackgroud);;
+    font-family: var(--ff-nav);
+    height: 45.85vw;
+}
+
+.hero{
+    text-indent: 28rem;
+}
+
+.solicitacao{
+   display: flex;
+   justify-content: center;
+    margin-top: 5rem;
+}
+
+.texto-solicitaçao{
+      font-size: var(--fs-main);
+      border: 2px solid var(--clr-navbackgroud);
+      border-radius: 50px;
+      padding: 1.3rem;
+}
+
+a{
+    color: var(--clr-navbackgroud);;
+}
+
+.contact{
+    border: 2px solid var(--clr-main);
+    padding: 0.5rem;
+}
