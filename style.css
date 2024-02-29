@@ -9,9 +9,11 @@
     --clr-navbackgroud:white;
     --fs-main:1.3rem;
     --clr-main:#203361;
+    --clr-strong:#2AC6DA;
 }
 
 *{
+    font-family: var(--ff-nav);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -60,8 +62,8 @@ li a{
     font-size: 6rem;
     display: flex;
     justify-content: center;
-    padding-top: 4rem;
-    
+    padding-top: 4rem; 
+
 }
 
 
@@ -69,7 +71,9 @@ main{
     background-color: var(--clr-nav);
     color: var(--clr-navbackgroud);;
     font-family: var(--ff-nav);
-    height: 45.85vw;
+   /*  height: 45.85vw; */
+    width: 100vw;
+    height: 90vh;
 }
 
 .hero{
@@ -79,14 +83,14 @@ main{
 .solicitacao{
    display: flex;
    justify-content: center;
-    margin-top: 5rem;
+   margin-top: 5rem;
 }
 
 .texto-solicitaçao{
-      font-size: var(--fs-main);
-      border: 2px solid var(--clr-navbackgroud);
-      border-radius: 50px;
-      padding: 1.3rem;
+    font-size: var(--fs-main);
+    border: 2px solid var(--clr-navbackgroud);
+    border-radius: 50px;
+    padding: 1.3rem;
 }
 
 a{
@@ -96,4 +100,91 @@ a{
 .contact{
     border: 2px solid var(--clr-main);
     padding: 0.5rem;
+}
+
+.strong{
+    color:var(--clr-strong);
+}
+
+.about-us{
+    height: 90vh; 
+    width: 100vw;
+    background-color:#203361;
+    color: white;
+}
+
+.about-us-text{
+    text-align: center;
+    font-size: 4rem; 
+}
+
+h2{
+    /* margin-bottom: 2rem;  */
+    text-align: center;
+}
+
+ul{
+    height: 10vh;
+}
+
+.third-page{
+    background-color: #203361;
+    color: white;
+}
+
+.container{
+    padding: 5rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.item{
+    width: 12%;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+}
+
+h3{
+    color:#2AC6DA;
+}
+
+.third-title{
+    color: #2AC6DA;
+   /*  padding-top: 4rem; */
+    font-size: 3rem;
+}
+
+.third-title-description{
+    font-size: 1.3rem;
+    margin-top: 4px;
+}
+
+.second-page-image{
+    max-width: 30%;
+    height: auto; 
+}
+
+.second-page{
+    /* width: 100vw;
+    height: 98.5vh;  */
+    
+    align-items: center;
+    justify-content: space-between;
+    background-color: #203361;
+    color: white;
+}
+
+.container2{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+figcaption{
+    color: #2AC6DA;
+    padding-bottom: 3rem;
 }
